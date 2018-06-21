@@ -1,0 +1,43 @@
+.card {
+  width: 320px;
+  height: 480px;
+  background-repeat: no-repeat;
+  margin: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+
+  position: relative;
+
+  cursor: pointer;
+}
+
+/* .card--selected::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, .4);
+} */
+
+.card--selected {
+  filter:
+    grayscale(40%)
+    saturate(40%)
+    brightness(120%);
+}
+
+.card--selected > * {
+  color: grey;
+}
+
+.card__tooltip {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
