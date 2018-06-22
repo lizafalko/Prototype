@@ -29,6 +29,7 @@ class App extends Component {
         height={card.height}
         tooltip={card.tooltip}
         color={card.color}
+        tooltip_color={card.tooltip_color}
       />
     );
 

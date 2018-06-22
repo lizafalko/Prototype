@@ -15,7 +15,7 @@ export const CARDS = [
     weight: "0,5",
     part: "кг",
     image: image1,
-    tooltip: "Привет!",
+    tooltip: "Чего сидишь? Порадуй котэ, <a href='#' onClick={this.toggler}>купи.</a>",
     color: "#1698d9"
   },
   {
@@ -28,7 +28,7 @@ export const CARDS = [
     weight: "2",
     part: "кг",
     image: image2,
-    tooltip: "Как дела?",
+    tooltip: "Головы щучьи с чесноком да свежайшая сёмгушка.",
     color: "#d91667"
   },
   {
@@ -42,8 +42,9 @@ export const CARDS = [
     weight: "5",
     part: "кг",
     image: image2,
-    tooltip: "Привет! <a href='#' onClick={this.toggler}>Ого!</a>",
-    color: "#d91667"
+    tooltip: "Печалька, с курой закончился.",
+    color: "#d91667",
+    tooltip_color: "#c5c54d"
   }
 ];
 

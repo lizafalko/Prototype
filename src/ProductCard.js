@@ -31,7 +31,8 @@ export class ProductCard extends Component {
       image,
       status,
       tooltip,
-      color
+      color,
+      tooltip_color
     } = this.props;
 
     return (
@@ -52,7 +53,7 @@ export class ProductCard extends Component {
           <p className="card__weight">{weight}</p>
           <p className="card__part">{part}</p>
         </div>
-        <p className="card__tooltip" dangerouslySetInnerHTML={{__html: tooltip}}></p>
+        <p className="card__tooltip" dangerouslySetInnerHTML={{__html: tooltip}} style={{color: tooltip_color}}></p>
       </article>
     );
   }
