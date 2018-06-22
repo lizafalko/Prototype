@@ -3,24 +3,11 @@
   height: 480px;
   background-repeat: no-repeat;
   margin: 20px;
-  padding: 40px;
+  padding: 20px 48px;
   box-sizing: border-box;
-
   position: relative;
-
   cursor: pointer;
 }
-
-/* .card--selected::after {
-  display: block;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, .4);
-} */
 
 .card--selected {
   filter:
@@ -40,4 +27,28 @@
   right: 0;
   text-align: center;
   color: white;
+}
+
+.card__text--grey {
+  color: #666666;
+}
+
+.card__name {
+  font-weight: bold;
+  margin-top: 8px;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.card__filling {
+  font-weight: 600;
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.card__block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
 }

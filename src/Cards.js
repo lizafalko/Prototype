@@ -1,5 +1,3 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react';
 import './App.css';
 import './Cards.css';
 
@@ -16,8 +14,6 @@ export const CARDS = [
     bonus: "мышь в подарок",
     weight: "0,5 кг",
     image: image1,
-    width: "320",
-    height: "480",
     tooltip: "Привет!"
   },
   {
@@ -29,8 +25,6 @@ export const CARDS = [
     bonus: "2 мыши в подарок",
     weight: "2 кг",
     image: image2,
-    width: "320",
-    height: "480",
     tooltip: "Как дела?"
   },
   {
@@ -43,8 +37,6 @@ export const CARDS = [
     status: "заказчик доволен",
     weight: "5 кг",
     image: image2,
-    width: "320",
-    height: "480",
     tooltip: "Привет! <a href='#' onClick={this.toggler}>Ого!</a>"
   }
 ];
