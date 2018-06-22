@@ -12,9 +12,11 @@ export const CARDS = [
     filling: "с фуа-гра",
     portions: "10 порций",
     bonus: "мышь в подарок",
-    weight: "0,5 кг",
+    weight: "0,5",
+    part: "кг",
     image: image1,
-    tooltip: "Привет!"
+    tooltip: "Привет!",
+    color: "#1698d9"
   },
   {
     id: 2,
@@ -23,9 +25,11 @@ export const CARDS = [
     filling: "с рыбой",
     portions: "40 порций",
     bonus: "2 мыши в подарок",
-    weight: "2 кг",
+    weight: "2",
+    part: "кг",
     image: image2,
-    tooltip: "Как дела?"
+    tooltip: "Как дела?",
+    color: "#d91667"
   },
   {
     id: 3,
@@ -35,9 +39,11 @@ export const CARDS = [
     portions: "100 порций",
     bonus: "5 мышей в подарок",
     status: "заказчик доволен",
-    weight: "5 кг",
+    weight: "5",
+    part: "кг",
     image: image2,
-    tooltip: "Привет! <a href='#' onClick={this.toggler}>Ого!</a>"
+    tooltip: "Привет! <a href='#' onClick={this.toggler}>Ого!</a>",
+    color: "#d91667"
   }
 ];
 

@@ -23,10 +23,12 @@ class App extends Component {
         bonus={card.bonus}
         image={card.image}
         weight={card.weight}
+        part={card.part}
         status={card.status}
         width={card.width}
         height={card.height}
         tooltip={card.tooltip}
+        color={card.color}
       />
     );
 

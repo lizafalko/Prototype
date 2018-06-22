@@ -27,9 +27,11 @@ export class ProductCard extends Component {
       portions,
       bonus,
       weight,
+      part,
       image,
       status,
-      tooltip
+      tooltip,
+      color
     } = this.props;
 
     return (
@@ -46,7 +48,10 @@ export class ProductCard extends Component {
           <span className="card__bonus card__text--grey">{bonus}</span>
           <span className="card__status card__text--grey">{status}</span>
         </div>
-        <p className="card__weight">{weight}</p>
+        <div className="card__bubble" style={{backgroundColor: color}}>
+          <p className="card__weight">{weight}</p>
+          <p className="card__part">{part}</p>
+        </div>
         <p className="card__tooltip" dangerouslySetInnerHTML={{__html: tooltip}}></p>
       </article>
     );
