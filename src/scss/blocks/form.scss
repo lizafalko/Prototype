@@ -1,0 +1,64 @@
+.form {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 20px 10px 60px;
+
+  &__list {
+    list-style-type: none;
+    margin: 40px 0;
+    padding: 0;
+  }
+
+  &__field {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    font-size: $font-size-small;
+
+    &_input {
+      background: $color-silver;
+      border: 1px solid $color-light-primary;
+      color: $color-brown;
+      transition: .2s ease-in-out;
+
+      &:focus {
+        border-color: $color-brown;
+        outline: 0 none;
+      }
+    }
+
+    &_button {
+      cursor: pointer;
+      background: $color-brown;
+      padding: 25px;
+      border: none;
+      color: $color-white;
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+      transition: .2s ease-in-out;
+
+      &:hover {
+        background: $color-light-brown;
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    min-width: 360px;
+    margin-bottom: 25px;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  @media (max-width: 760px) {
+    width: 90%;
+  }
+}

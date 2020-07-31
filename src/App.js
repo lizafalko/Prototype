@@ -1,47 +1,30 @@
 import React, { Component } from 'react';
-import { CARDS } from './Cards.js'
-import { ProductCard } from './ProductCard';
-import './App.css';
+import ReactDOM from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
+import createBrowserHistory from 'history/createBrowserHistory';
+import { About } from './About.js';
+import { Contacts } from './Contacts';
+import { Steps } from './Steps';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      displayedCards: CARDS
-    }
-  }
+const history = createBrowserHistory();
 
+class Navigation extends Component {
   render() {
-    const productCards = this.state.displayedCards.map(card =>
-      <ProductCard
-        key={card.id}
-        id={card.id}
-        description={card.description}
-        name={card.name}
-        filling={card.filling}
-        portions={card.portions}
-        bonus={card.bonus}
-        image={card.image}
-        weight={card.weight}
-        part={card.part}
-        status={card.status}
-        width={card.width}
-        height={card.height}
-        tooltip={card.tooltip}
-        color={card.color}
-        tooltip_color={card.tooltip_color}
-      />
-    );
-
     return (
-      <div className="page">
-        <h1 className="page__heading">Ты сегодня покормил кота?</h1>
-        <div className="cards">
-          {productCards}
+      <BrowserRouter basename="/hotelLookApp/" history={history}>
+        <div className="main_block app">
+          <ul className="main_block__list">
+            <li className="main_block__link"><Link className="main_block__menu" to="/about">Выбрать товар</Link></li>
+            <li className="main_block__link"><Link className="main_block__menu" to="/">Корзина</Link></li>
+            <li className="main_block__link"><Link className="main_block__menu" to="/contacts">Контакты</Link></li>
+          </ul>
+          <Route exact path="/about" component={About}/>
+          <Route exact path="/" component={Steps}/>
+          <Route exact path="/contacts" component={Contacts}/>
         </div>
-      </div>
-    );
+      </BrowserRouter>
+    )
   }
 }
 
-export default App;
+export default Navigation;
