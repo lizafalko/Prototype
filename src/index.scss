@@ -30,6 +30,7 @@ html, body {
   font-family: $font-family-primary;
   font-size: $font-size-medium;
   background: $gradient-block no-repeat;
+  min-height: 900px;
 }
 
 code {

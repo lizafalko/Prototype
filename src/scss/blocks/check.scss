@@ -46,8 +46,8 @@
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: $color-silver;
-    border: 1px solid $color-light-primary;
+    background: $color-white-light;
+    box-shadow: $box-shadow-light;
 
     &:after {
       content: "";
@@ -77,8 +77,8 @@
 
     &__input {
       &:checked ~ .checkbox__checkmark {
-        background-color: $color-silver;
-        border: 1px solid $color-brown;
+        background: $color-white-light;
+        box-shadow: $box-shadow-light;
 
         &:after {
           display: block;

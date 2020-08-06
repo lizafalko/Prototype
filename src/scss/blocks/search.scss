@@ -14,6 +14,10 @@
   &:focus {
     border-color: $color-dark-violet;
   }
+
+  @media (max-width: 1200px) {
+    width: 80%;
+  }
 }
 
 .search-icon {

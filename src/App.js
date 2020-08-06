@@ -16,11 +16,9 @@ class Navigation extends Component {
           <ul className="main_block__list">
             <li className="main_block__link"><Link className="main_block__menu" to="/about">Выбрать товар</Link></li>
             <li className="main_block__link"><Link className="main_block__menu" to="/">Корзина</Link></li>
-            <li className="main_block__link"><Link className="main_block__menu" to="/contacts">Контакты</Link></li>
           </ul>
           <Route exact path="/about" component={About}/>
           <Route exact path="/" component={Steps}/>
-          <Route exact path="/contacts" component={Contacts}/>
         </div>
       </BrowserRouter>
     )
