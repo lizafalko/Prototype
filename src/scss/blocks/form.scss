@@ -18,10 +18,10 @@
     font-size: $font-size-small;
 
     &_input {
-      background: $color-silver;
-      border: 1px solid $color-light-primary;
+      background: $color-white-light;
       color: $color-brown;
       transition: .2s ease-in-out;
+      box-shadow: $box-shadow-light;
 
       &:focus {
         border-color: $color-brown;

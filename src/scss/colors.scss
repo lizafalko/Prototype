@@ -1,4 +1,6 @@
 $color-white: #FFFFFF;
+$color-white-light: #ffffff6e;
+$color-white-transparent: #fafbfe0f;
 $color-black-primary: #262626;
 $color-grey: #828282;
 $color-light-skin: #fffcdc;
@@ -6,8 +8,15 @@ $color-light-glow: #fffcdc26;
 $color-brown: #312626;
 $color-light-primary: #31262659;
 $color-light-brown: #443535;
+$color-violet: #8e5fff7a;
+$color-dark-violet: #4b11d57a;
+$color-yellow: #ffae00;
 
 $gradient-block: linear-gradient(to bottom right, #d9a7c7, $color-light-skin);
+$gradient-card: linear-gradient(to bottom right, $color-violet, #d9a7c7, $color-yellow);
+
+$box-shadow-light: 2px 3px 5px 0px rgba(191, 107, 140, 0.57);
+
 $color-grey: #657195;
 $color-silver: #FAFBFE;
 $color-light-grey: #eff2f9;

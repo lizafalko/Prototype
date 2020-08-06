@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+  margin: 40px;
+  box-shadow: $box-shadow-light;
+  padding: 40px;
+
+  &__content {
+    width: 80%;
+    height: 300px;
+    max-width: 100%;
+    cursor: pointer;
+    background: $gradient-card;
+    border-radius: 50%;
+    transform: scale(1);
+    margin-bottom: 16px;
+    box-shadow: $box-shadow-light;
+    transition: transform .2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__rating {
+    margin-top: 20px;
+  }
+
+  &__description {
+    padding-bottom: 20px;
+  }
+
+  &__price {
+    align-self: flex-end;
+    background-color: $color-yellow;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 4px 10px 4px 12px;
+    transform: rotate(20deg);
+    position: relative;
+
+    &::before {
+      display: inline-block;
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: -5px;
+      width: 8px;
+      height: 8px;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 100%;
+      transform: translateY(-50%);
+    }
+
+    &::after {
+      display: inline;
+      content: "₽";
+    }
+  }
+}

@@ -31,14 +31,13 @@ export class About extends Component {
         name={hotel.name}
         description={hotel.description}
         price={hotel.price}
-        image={hotel.image}
         rating={hotel.rating}
       />
     );
 
     return (
       <div className="page">
-        <h2 className="page__heading">Hotel Look</h2>
+        <h2 className="page__heading">Выбрать абстракцию</h2>
         <SearchBar onSearch={this.handleSearch} />
         <div className="cards">
           {hotelCards}

@@ -1,6 +1,7 @@
 .steps {
   display: flex;
   flex-direction: column;
+  min-height: 640px;
 
   &__navigation {
     display: flex;

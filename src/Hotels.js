@@ -4,63 +4,45 @@ import ReactDOM from 'react';
 export const HOTELS = [
   {
     id: 1223435356,
-    name: 'Hotel Anixy',
-    description: 'The James New York – NoMad has been recently refurbished, offering its guests a stylish and modern ambience..',
+    name: 'Абстракция цвета',
+    description: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...',
     price: 7000,
-    rating: 'Book now!',
-    image: 'img/1.jpg',
-    width: '800',
-    height: '500'
+    rating: 'В корзину',
   },
   {
     id: 1223435355,
-    name: 'Paraiso Beach Hotel',
-    description: 'Located in the lively Bloomsbury district, the Royal National Hotel is definitely a great choice for anyone who wants to stay in London..',
+    name: 'Header & Footer',
+    description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..',
     price: 950,
-    rating: 'Book now!',
-    image: 'img/2.jpg',
-    width: '800',
-    height: '500'
+    rating: 'В корзину',
   },
   {
     id: 1223435358,
-    name: 'Park Hotel Argo',
-    description: 'Located at on the Collins Avenue, Fontainebleau Hotel Miami Beach is the best place to be while visiting Florida. .',
+    name: 'Абстракция сеток',
+    description: 'Qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem...',
     price: 1000,
-    rating: 'Book now!',
-    image: 'img/3.jpg',
-    width: '800',
-    height: '500'
+    rating: 'В корзину',
   },
   {
     id: 1223435345,
-    name: 'Sunrise All Suites Resort',
-    description: 'It offers a beautiful view of the ocean, an outdoor pool, a fitness centre and a beauty salon..',
+    name: 'Блоки & Модули',
+    description: 'Qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem...',
     price: 4030,
-    rating: 'Book now!',
-    image: 'img/4.jpg',
-    width: '800',
-    height: '500'
+    rating: 'В корзину',
   },
   {
     id: 1223435334,
-    name: 'The Cliff Beach & Spa Resort',
-    description: 'At Katsuya restaurant you can enjoy Japanese cuisine while the Bazaar offers the refined Spanish delicacies.',
+    name: 'Коллекция библиотек',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...',
     price: 1350,
-    rating: 'Book now!',
-    image: 'img/5.jpg',
-    width: '800',
-    height: '500'
+    rating: 'В корзину',
   },
   {
     id: 1223435311,
-    name: 'Sirena Palace',
-    description: 'The hotel is located just 1.5 km from the historic Art Deco district, within a 20 minute drive from Miami International Airport..',
+    name: 'Интерактивные элементы',
+    description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     price: 1200,
-    rating: 'Book now!',
-    image: 'img/6.jpg',
-    width: '800',
-    height: '500'
+    rating: 'В корзину',
   }
 ];
 
