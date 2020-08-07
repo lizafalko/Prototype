@@ -12,6 +12,14 @@
     padding: 0;
   }
 
+  &__pay {
+    background: $color-white-light;
+    color: $color-brown;
+    box-shadow: $box-shadow-light;
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+
   &__choice {
     margin: 16px 0 32px;
   }
@@ -44,7 +52,7 @@
       font-weight: 600;
       line-height: 20px;
       letter-spacing: 1px;
-      margin: 25px 0;
+      margin: 15px 0;
       transition: .2s ease-in-out;
 
       &:hover {

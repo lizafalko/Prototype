@@ -10,10 +10,12 @@ export function UserPay(props) {
         <RadioButton radioButtonText="Оплатить при получении" />
         <RadioButton radioButtonText="Оплатить картой онлайн" />
       </div>
-      <input className="form__field form__field_input" type="text" name="comment" placeholder="Комментарий *" />
+      <div className="form__pay">
+        <span className="form__summ">К оплате: 1 240 ₽</span>
+      </div>
       <Checkbox checkboxClass="checkbox checkbox_mobile" />
-      <button className="form__field form__field_button" type="submit">Далее</button>
       <Checkbox checkboxClass="checkbox checkbox_desktop" />
+      <button className="form__field form__field_button" type="submit">Далее</button>
     </div>
   );
 }
