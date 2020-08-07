@@ -6,7 +6,6 @@ import { Cart } from './Cart.js';
 import { UserInfo } from './UserInfo.js';
 import { UserAddress } from './UserAddress.js';
 import { UserPay } from './UserPay.js';
-import { Contacts } from './Contacts.js';
 
 const history = createBrowserHistory();
 
