@@ -2,37 +2,31 @@ import React, { Component } from 'react';
 import ReactDOM from 'react';
 import { HOTELS } from './Hotels.js'
 import { HotelCard } from './HotelCard';
-import { SearchBar } from './SearchBar.js';
 
-export class Cart extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      displayedHotels: HOTELS
-    }
-  }
-
-  render() {
-    const hotelCards = this.state.displayedHotels.sort(function(a, b) { return a.price < b.price }).map(hotel =>
-      <HotelCard
-        key={hotel.id}
-        id={hotel.id}
-        name={hotel.name}
-        description={hotel.description}
-        price={hotel.price}
-        rating={hotel.rating}
-      />
-    );
-
+export function Cart(props)  {
     return (
       <div className="page">
         <h2 className="page__heading page__heading_cart">Корзина абстракций:</h2>
         <div className="cards">
-          {hotelCards}
+          <HotelCard
+            key="1223435355"
+            id="1223435355"
+            name="Header & Footer"
+            description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.."
+            price="950"
+            rating="Убрать из корзины"
+          />
+          <HotelCard
+            key="1223435356"
+            id="1223435356"
+            name="Абстракция цвета"
+            description="Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa..."
+            price="7000"
+            rating="Убрать из корзины"
+          />
         </div>
       </div>
-    );
-  }
+    )
 }
 
 export default Cart;
