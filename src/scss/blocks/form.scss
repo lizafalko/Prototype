@@ -29,6 +29,30 @@
     padding: 15px 20px;
     font-size: $font-size-small;
 
+    &_color {
+      width: 60%;
+      margin-bottom: 40px;
+      background: none;
+      color: $color-brown;
+      transition: .2s ease-in-out;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      border-bottom: 2px solid $color-black-primary;
+      outline: none;
+      padding: 10px 0;
+
+      &:focus {
+        border-color: $color-dark-violet;
+        outline: 0 none;
+      }
+
+      @media (max-width: 500px) {
+        width: 90%;
+        margin-bottom: 50px;
+      }
+    }
+
     &_input {
       background: $color-white-light;
       color: $color-brown;
@@ -39,6 +63,7 @@
       &:focus {
         border-color: $color-brown;
         outline: 0 none;
+        box-shadow: $box-shadow-focus;
       }
     }
 

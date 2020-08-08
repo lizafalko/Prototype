@@ -32,7 +32,7 @@ export class Steps extends Component {
             <Link className={this.state.isToggleOn ? "steps__item steps__item_rotate" : "steps__item steps__item_not"} to="/address" onClick={this.stepClick}>Адрес доставки</Link>
             <Link className={this.state.isToggleOn ? "steps__item steps__item_rotate" : "steps__item steps__item_not"} to="/payment" onClick={this.stepClick}>Способ оплаты</Link>
           </div>
-          <form method="POST">
+          <form>
             <Route exact path="/" component={Cart}/>
             <Route exact path="/info" component={UserInfo}/>
             <Route exact path="/address" component={UserAddress}/>
