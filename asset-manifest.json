@@ -1,7 +1,7 @@
 {
-  "main.css": "/Prototype/static/css/main.dd1ff5ba.chunk.css",
-  "main.js": "/Prototype/static/js/main.ac75d055.chunk.js",
-  "main.js.map": "/Prototype/static/js/main.ac75d055.chunk.js.map",
+  "main.css": "/Prototype/static/css/main.73446247.chunk.css",
+  "main.js": "/Prototype/static/js/main.d9c12034.chunk.js",
+  "main.js.map": "/Prototype/static/js/main.d9c12034.chunk.js.map",
   "static/js/1.45d77a75.chunk.js": "/Prototype/static/js/1.45d77a75.chunk.js",
   "static/js/1.45d77a75.chunk.js.map": "/Prototype/static/js/1.45d77a75.chunk.js.map",
   "runtime~main.js": "/Prototype/static/js/runtime~main.cc5b279c.js",
@@ -9,5 +9,6 @@
   "static/media/FuturaPT-Medium.ttf": "/Prototype/static/media/FuturaPT-Medium.540c81bc.ttf",
   "static/media/FuturaPT-Heavy.ttf": "/Prototype/static/media/FuturaPT-Heavy.8b9416a7.ttf",
   "static/media/FuturaPT-Book.ttf": "/Prototype/static/media/FuturaPT-Book.0d987efe.ttf",
+  "static/media/index.scss": "/Prototype/static/media/bubble_green.6fa309cc.svg",
   "index.html": "/Prototype/index.html"
 }
