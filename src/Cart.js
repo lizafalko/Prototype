@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react';
 import { HOTELS } from './Hotels.js'
 import { CartCard } from './CartCard';
+import { Conversion } from './Conversion';
 
 export function Cart(props)  {
     return (
@@ -14,6 +15,7 @@ export function Cart(props)  {
             description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.."
             price="950"
             rating="Убрать из корзины"
+            shop="First"
           />
           <CartCard
             id="1223435356"
@@ -21,8 +23,10 @@ export function Cart(props)  {
             description="Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa..."
             price="7000"
             rating="Убрать из корзины"
+            shop="Seventh"
           />
         </div>
+        <Conversion />
       </div>
     )
 }

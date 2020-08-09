@@ -32,6 +32,7 @@ export class About extends Component {
         description={hotel.description}
         price={hotel.price}
         rating={hotel.rating}
+        shop={hotel.shop}
       />
     );
 

@@ -21,6 +21,7 @@ export class CartCard extends Component {
       description,
       price,
       rating,
+      shop
     } = this.props;
 
     const styleObj = {
@@ -32,7 +33,7 @@ export class CartCard extends Component {
         <div style={styleObj} className="card__content"></div>
         <div>
           <div className="card__block">
-            <h3>{name}</h3>
+            <h3 className="card__name">{name}</h3>
             <a href="#" className="card__rating">{rating}</a>
           </div>
           <p className="card__description">
@@ -45,6 +46,9 @@ export class CartCard extends Component {
             placeholder="Введите цвет абстракции"
             type="text"
           />
+          <p className="card__shop">
+            Магазин: <a href="#" className="card__rating">{shop} Shop</a>
+          </p>
         </div>
         <span className="card__price">{price}</span>
       </div>

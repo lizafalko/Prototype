@@ -7,6 +7,26 @@
   box-shadow: $box-shadow-light;
   padding: 40px;
 
+  &_yellow {
+    background: url('./img/bubble_yellow.svg') 45% 0 no-repeat;
+  }
+
+  &_pink {
+    background: url('./img/bubble_pink.svg') 20% 0 no-repeat;
+  }
+
+  &_green {
+    background: url('./img/bubble_green.svg') 35% 0 no-repeat;
+  }
+
+  &__name {
+    margin-right: 16px;
+  }
+
+  &__shop {
+    margin-bottom: 40px;
+  }
+
   &__content {
     width: 80%;
     height: 300px;
@@ -34,6 +54,11 @@
     margin-top: 20px;
     text-decoration: none;
     color: $color-light-primary;
+    transition: color .2s ease;
+
+    &:hover {
+      color: $color-brown;
+    }
   }
 
   &__description {
@@ -59,7 +84,7 @@
       left: -5px;
       width: 8px;
       height: 8px;
-      background-color: white;
+      background-color: $color-white;
       border: 2px solid $color-light-primary;
       border-radius: 100%;
       transform: translateY(-50%);

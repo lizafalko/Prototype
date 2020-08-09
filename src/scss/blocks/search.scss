@@ -1,6 +1,6 @@
 .search-input {
   background: none;
-  font-size: 16px;
+  font-size: 14px;
   outline: none;
   width: 42%;
   border: none;
@@ -9,7 +9,11 @@
   padding-bottom: 10px;
   padding-left: 30px;
   margin-bottom: 60px;
-  color: $color-light-brown;
+  color: $color-brown;
+
+  &[type="text"]::-webkit-input-placeholder {
+    color: $color-light-brown;
+  }
 
   &:focus {
     border-color: $color-dark-violet;

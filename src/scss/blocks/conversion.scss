@@ -1,0 +1,23 @@
+.conversion {
+  margin: 40px 40px 100px;
+  padding: 20px;
+
+  &__heading {
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media (max-width: 1000px) {
+    border: none;
+    margin: 0 10px 80px;
+
+    &__heading {
+      margin-bottom: 40px;
+    }
+  }
+}

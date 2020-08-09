@@ -9,7 +9,7 @@ export class SearchBar extends Component {
         <input
           className="search-input"
           type="text"
-          placeholder="Введите название абстракции"
+          placeholder="Введите название абстракции ..."
           onChange={this.props.onSearch}
         />
       </div>
